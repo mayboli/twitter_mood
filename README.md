@@ -1,5 +1,7 @@
 # twitter_mood
 
+Tools: Jupyter Notebook, Tweepy, Numpy, Pandas, Matplotlib, VADER
+
 In order to analyze the sentiments of five different media sources on Twitter, I pulled the 100 most recent tweets using Twitter's API and then used VADER to analyze the sentiments to compare the "compound" score of the different sources with -1 being negative, 0 as neutral, and 1 as positive. 
 
 Looking at the scatter plot, there are data points all over the graph showing that all the media sources have tweets that vary widely from super positive +1 to super negative -1, but also have tons of data points that are neutral since the grid line for zero is completely covered. 
